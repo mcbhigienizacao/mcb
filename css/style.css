@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --fonte-Bebas: "Bebas Neue", serif;
+    --fonte-Archivo: "Archivo", serif;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: rgba(90, 155, 213, 0.020);
+}
+header {
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+}
+header p {
+    margin-bottom: 30px;
+}
+h1 {
+    font: normal bolder 33px var(--fonte-Bebas);
+    color: rgb(90, 155, 213);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.200);
+    margin-top: 30px;
+}
+section.background {
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    box-shadow: inset 8px 8px 40px 0px rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 15px;
+}
+.h2-higienizacao {
+    text-align: center;
+    font: normal bolder 30px var(--fonte-Bebas);
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 40px 0px 30px 0px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.p-higienizacao {
+    text-align: center;
+    font: normal bold 20px var(--fonte-Archivo);
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 20px 0px 50px 0px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+#section-background-limpeza {
+    background-image: url('../img/img-limpeza.jpg');
+    background-position: left bottom;
+}
+#section-background-sanitizacao {
+    background-image: url('../img/img-sanitizacao.jpg');
+    background-position: center center;
+}
+#section-background-impermeabilizacao {
+    background-image: url('../img/img-impermeabilizacao.jpg');
+    background-position: center center;
+}
+.h2-prop{
+    text-align: center;
+    font: normal bolder 30px var(--fonte-Bebas);
+    padding: 40px 0px 30px 0px;
+    color: rgba(90, 155, 213);
+}
+.h2-text {
+    text-align: left;
+    font: normal bolder 25px var(--fonte-Bebas);
+    padding: 20px 0px 5px 10px;
+    color: rgba(90, 155, 213);
+}
+.text .p-text{
+    display: none;
+}
+.text  .p-text-I {
+    display: none;
+}
+.text  .p-text-II {
+    display: none;
+}
+.text .p-text-III{
+    display: none;
+}
+.text .p-text-IV{
+    display: none;
+}
+.p-text, .p-text-I .p-text-II .p-text-III .p-text-IV {
+    display: block;
+}
+.p-sty{
+    text-indent: 40px;
+    text-align: justify;
+    font: normal bold 15px var(--fonte-Archivo);
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+.bi {
+    font-size: 20px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+}
+.bi:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+.bi-dash-circle {
+    display: none;
+}
+#contact {
+    position: fixed;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: 70vw;
+    margin-top: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: green;
+    outline: 4px solid green;
+}
+#contact:hover {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.500);
+}
+.bi-whatsapp{
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
+.bi-whatsapp:hover{
+    padding: 17px;
+}
+footer{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 100px;
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@media screen and (max-width: 394px){
+    #img-big{
+        display: none;
+    }
+}
+@media screen and (min-width: 395px) and (max-width: 768px){
+    #img-big{
+        display: none;
+    }
+    #contact{
+        width: 60px;
+        height: 60px;
+        margin-left: 83vw;
+        margin-top: 50vh;
+    }
+    #contact:hover {
+        width: 65px;
+        height: 65px;
+    }
+    .bi-whatsapp{
+        padding: 15px;
+        font-size: 35px;
+    }
+    .bi-whatsapp:hover{
+        padding: 40px;
+    }
+    .h2-higienizacao {
+        font-size: 40px;
+    }
+    .p-higienizacao {
+        font-size: 25px;
+    }
+    .h2-prop{
+        font-size: 40px;
+    }
+    .h2-text{
+        font-size: 27px;
+    }
+    .bi {
+        font-size: 22px;
+    }
+    .bi:hover {
+        font-size: 25px;
+    }
+    .p-sty{
+        font-size: 18px;
+        margin-left: 5%;
+        max-width: 500px;
+        text-align: justify;
+    }
+}
+@media screen and (min-width: 769px) {
+    #img-small{
+        display: none;
+    }
+    #img-big, header{
+        margin: 0px;
+        padding: 0px;
+    }
+    #img-big{
+        background: black url(../img/mcb-higienizacao-big.jpg) center left no-repeat scroll;
+        background-size: cover;
+        height: 340px;
+    }
+    h1{
+        display: none;
+    }
+    #contact{
+        width: 70px;
+        height: 70px;
+        margin-left: 90vw;
+        margin-top: 36vh;
+    }
+    #contact:hover {
+        width: 75px;
+        height: 75px;
+    }
+    .bi-whatsapp{
+        padding: 15px;
+        font-size: 40px;
+    }
+    .bi-whatsapp:hover{
+        padding: 43px;
+    }
+    section.background {
+        display: inline-flex;
+        width: 100%;
+        padding: 150px 0px 150px 0px;
+        margin-bottom: 20px;
+    }
+    .h2-higienizacao {
+        display: flex;
+        align-items: center;
+        font-size: 80px;
+        padding: 0px 50px 0px 20px;
+        border-radius: 50px 0px 0px 50px;
+        margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.700);
+    }
+    .p-higienizacao {
+        font-size: 30px;
+        text-align: left;
+        padding: 40px 20px 40px 0px;
+        background-color: rgba(0, 0, 0, 0.700);
+    }
+    .h2-prop{
+        font-size: 80px;
+    }
+    .text{
+        justify-items: center;
+    }
+    .h2-text{
+        font-size: 40px;
+    }
+    .bi {
+        font-size: 25px;
+    }
+    .bi:hover {
+        font-size: 30px;
+    }
+    .p-sty{
+        text-align: left;
+        max-width: 700px;
+        text-indent: 40px;
+        text-align: justify;
+        font: normal bold 25px var(--fonte-Archivo);
+        padding: 0px 10px 10px 30px;
+    }
+}
